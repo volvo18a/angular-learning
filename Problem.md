@@ -10,7 +10,6 @@ const id = +this.route.snapshot.paramMap.get('id');
 ```js
 import { Subject } from 'rxjs/Subject';
 
-
 private searchTerms = new Subject<string>();
 
 searchTerms.next(something);
