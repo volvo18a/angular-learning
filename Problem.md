@@ -1,6 +1,6 @@
 # Demo中自己不懂的一些知识整理
 
-##语法方面
+> 语法方面
 
 ```js
 const id = +this.route.snapshot.paramMap.get('id');
