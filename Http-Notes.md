@@ -10,7 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 > HttpClient
 
-[https://angular.io/api/common/http/HttpClient] 的方法参数：
+https://angular.io/api/common/http/HttpClient 的方法参数：
 ```js
 class HttpClient {
   constructor(handler: HttpHandler)
