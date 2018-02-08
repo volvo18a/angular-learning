@@ -19,7 +19,7 @@ searchTerms.next(something);
 例如：
 ```js
 import {
-	debounceTime, distinctUntilChanged, switchMap
+  debounceTime, distinctUntilChanged, switchMap
 } from 'rxjs/operators';
 
 searchTerms.pipe(
