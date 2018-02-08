@@ -1,13 +1,10 @@
-h2 {
-  text-align: center;
-}
 .selected {
   background-color: #CFD8DC !important;
   color: white;
 }
 
 .heroes {
-  margin: 0 auto;
+  margin: 1.4em 0 0;
   list-style-type: none;
   padding: 0;
   width: 15em;
@@ -35,6 +32,18 @@ h2 {
   left: .1em;
 }
 
+.heroes a {
+  color: #888;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  width: 250px;
+}
+
+.heroes a:hover {
+  color: #607D8B;
+}
+
 .heroes .text {
   position: relative;
   top: -3px;
@@ -54,4 +63,28 @@ h2 {
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
   text-align: left; 
+  text-decoration: none;
+}
+
+.button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  font-family: Arial;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+ 
+button.delete {
+  position: relative;
+  border: none;
+  left: 194px;
+  top: -32px;
+  background-color: gray !important;
+  color: white;
 }
