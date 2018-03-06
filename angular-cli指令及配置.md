@@ -1,5 +1,13 @@
 # angular-cli部分指令使用
 
+> 创建文件
+
+```bash
+ng new name --routing
+```
+
+```--routing``` 创建带有routing的项目，并加入到 _app.module.ts_ 的 ```imports``` 数组里
+
 > 创建组件
 
 ```bash
