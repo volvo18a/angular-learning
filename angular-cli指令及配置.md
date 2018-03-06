@@ -38,5 +38,20 @@ ng build --prod
 
 生成的文件即为生产环境文件
 
+> 引入自己的js文件
+
+_angular-cli.json_ 文件
+
+```js
+"scripts": [
+  "tools/getScreenId.js",
+  "tools/RecordRTC.js",
+  "tools/adapter.min.js",
+  "tools/mrtcsession.js",
+  "tools/mrtc.js"
+],
+```
+
+示例中引入的文件目录是 _src_ 下的tools文件夹中的js文件
 
 持续更新ing( •̀ ω •́ )y
