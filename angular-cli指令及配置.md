@@ -52,6 +52,6 @@ _angular-cli.json_ 文件
 ],
 ```
 
-示例中引入的文件目录是 _src_ 下的tools文件夹中的js文件
+示例中引入的文件目录是 ```src``` 下的tools文件夹中的js文件
 
 持续更新ing( •̀ ω •́ )y
