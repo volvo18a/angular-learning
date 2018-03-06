@@ -1,4 +1,4 @@
-# Demo中自己不懂的一些知识整理
+# 自己不懂的一些知识整理
 
 > 语法方面
 
@@ -6,6 +6,8 @@
 const id = +this.route.snapshot.paramMap.get('id');
 ```
 语句中的 ```+``` 可将后面得到的id隐式转换为number
+
+> Subject
 
 ```js
 import { Subject } from 'rxjs/Subject';
