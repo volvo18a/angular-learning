@@ -44,3 +44,11 @@ const routes: Routes = [
 ```
 
 路由判断是从上至下的规则，因此末尾两句适合写在最后的位置，不然优先级太高会导致不必要的麻烦
+
+获取路由后的 ```/:id```
+```js
+import { ActivatedRoute } from '@angular/router';
+
+//通过这一句拿到id
+this.route.snapshot.paramMap.get('id');
+```
