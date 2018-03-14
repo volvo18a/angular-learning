@@ -35,9 +35,12 @@ ng generate service name --module=app
 
 ```bash
 ng build -w
+
+ng build -w --output-path url
 ```
 
 确保生成的静态文件无误后，需要放到生产环境则继续运行
+__--output-path__ 后的 __url__ 为静态文件编译至的指定目录 （ps：写错会导致文件被清空，而且无法还原~）
 
 
 ```bash
@@ -61,5 +64,12 @@ _angular-cli.json_ 文件
 ```
 
 示例中引入的文件目录是 ```src``` 下的tools文件夹中的js文件
+若文件中有定义如 ```window.xxx``` 之类的对象
+
+需要在使用 __xxx__ 的 __ts__ 文件中
+
+```js
+declare var xxx;
+```
 
 持续更新ing( •̀ ω •́ )y
