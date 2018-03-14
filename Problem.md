@@ -89,6 +89,6 @@ constructor(private streamService: StreamService, private route: ActivatedRoute,
 ```
 
 引入 __ChangeDetectorRef__ 在 __constructor__ 构造中开一个定时器，调用 ```this.chRef.markForCheck()``` 手动触发脏检查
-类似于angularJS 1.x 的 __$apply()__ 方法
+类似于 __angularJS 1.x__ 的 __$apply()__ 方法
 
 持续更新ing( •̀ ω •́ )y
