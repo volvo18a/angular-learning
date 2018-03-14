@@ -49,6 +49,8 @@ const routes: Routes = [
 ```js
 import { ActivatedRoute } from '@angular/router';
 
+constructor(private route: ActivatedRoute) { }
+
 //通过这一句拿到id
 this.route.snapshot.paramMap.get('id');
 ```
